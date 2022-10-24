@@ -1,2 +1,2 @@
-# Hatoki-leak
-Fuck Leak HaToKi exe :)
+# Ddos Web By Tài Hiếu 
+Fuck HỒ TIỂU BẢO
